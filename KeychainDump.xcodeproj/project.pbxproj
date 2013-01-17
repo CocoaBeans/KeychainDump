@@ -10,6 +10,8 @@
 		0A364B8716A7CC5500DB36D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A364B8616A7CC5500DB36D2 /* Foundation.framework */; };
 		0A364B8A16A7CC5500DB36D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A364B8916A7CC5500DB36D2 /* main.m */; };
 		0A364B8E16A7CC5500DB36D2 /* KeychainDump.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A364B8D16A7CC5500DB36D2 /* KeychainDump.1 */; };
+		0A364B9516A7CDD100DB36D2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A364B9416A7CDD100DB36D2 /* Security.framework */; };
+		0A364B9816A7DBDB00DB36D2 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A364B9716A7DBDB00DB36D2 /* CHCSVParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,9 @@
 		0A364B8916A7CC5500DB36D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A364B8C16A7CC5500DB36D2 /* KeychainDump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeychainDump-Prefix.pch"; sourceTree = "<group>"; };
 		0A364B8D16A7CC5500DB36D2 /* KeychainDump.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KeychainDump.1; sourceTree = "<group>"; };
+		0A364B9416A7CDD100DB36D2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0A364B9616A7DBDB00DB36D2 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		0A364B9716A7DBDB00DB36D2 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A364B9516A7CDD100DB36D2 /* Security.framework in Frameworks */,
 				0A364B8716A7CC5500DB36D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +71,7 @@
 		0A364B8516A7CC5500DB36D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A364B9416A7CDD100DB36D2 /* Security.framework */,
 				0A364B8616A7CC5500DB36D2 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -74,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				0A364B8916A7CC5500DB36D2 /* main.m */,
+				0A364B9616A7DBDB00DB36D2 /* CHCSVParser.h */,
+				0A364B9716A7DBDB00DB36D2 /* CHCSVParser.m */,
 				0A364B8D16A7CC5500DB36D2 /* KeychainDump.1 */,
 				0A364B8B16A7CC5500DB36D2 /* Supporting Files */,
 			);
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A364B8A16A7CC5500DB36D2 /* main.m in Sources */,
+				0A364B9816A7DBDB00DB36D2 /* CHCSVParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
